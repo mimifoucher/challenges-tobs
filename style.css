@@ -1,0 +1,124 @@
+/* KeyFrames */
+@-webkit-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.header--container {
+  background: #0e185f;
+  height: 200px;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #e8ffc2;
+  padding-top: 10px;
+}
+
+.box--container {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.input--text,
+.input--number {
+  border-color: #2fa4ff;
+  border-radius: 5px;
+}
+
+#value--container {
+  width: 424px;
+  border-radius: 5px;
+}
+
+.button--add {
+  -webkit-animation: gradient-animation 4s ease infinite;
+          animation: gradient-animation 4s ease infinite;
+  background: -webkit-linear-gradient(left, #2FA4FF, #0E185F);
+  background-size: 200% 200%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  border-color: transparent;
+}
+
+form {
+  margin: 0px;
+}
+
+table#table--container {
+  width: 381px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+tr.table--box {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #2fa4ff;
+  border-radius: 5px;
+  background: white;
+  margin: 5px;
+}
+
+div#date--day__number {
+  font-size: 17px;
+  color: #0e185f;
+}
+
+.date--day h1 {
+  font-family: sans-serif;
+  color: #0e185f;
+}
+/*# sourceMappingURL=style.css.map */

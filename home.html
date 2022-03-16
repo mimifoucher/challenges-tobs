@@ -1,0 +1,42 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Listas de tareas</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header class="header--container">
+        <img src="/docs/crypto-img.png" alt="">
+    </header>
+    <main class="main--container">
+        <div class="box--container">
+            <table id="table--api"></table>
+            <div class="list--container">
+                <div class="date--container">
+                    <div class="date--day">
+                        <div id="date--day__number"></div>
+                        <h1>Mis movimientos</h1>
+                    </div>
+                </div>
+                <div id="date--text"></div>
+            </div>
+            <form onsubmit="addNewValue(event)">
+                <input class="input--text" type="text" name="newCrypto" autocomplete=""
+                    placeholder="Tipo de Cryptomoneda">
+                <input class="input--number" type="number" name="newValue" autocomplete=""
+                    placeholder="Valor de compra">
+                <button type="submit" class="addValueButton button--add"> + </button>
+            </form>
+            <div id="value--container">
+                <table id="table--container">
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <script src="/app.js"></script>
+</body>
+
+</html>
